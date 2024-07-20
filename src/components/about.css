@@ -1,0 +1,114 @@
+/* about section styling */
+.about{
+    background: url("../images/about-2.jpg") no-repeat center;
+    display: flex;
+    height: 100vh;
+    background-size:cover;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom:50px;
+  }
+  .about.title{
+    font-color:#13274F;
+    font-size:50px;
+  }
+  
+  .about .about-content .left{
+    width: 45%;
+   }
+  .about .about-content .left img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .about .about-content .right{
+    width: 55%;
+  }
+  .about .about-content .right .text{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-color:#00308F;
+  }
+  .about .about-content .right .text span{
+    color: crimson;
+  }
+  .about .about-content .right h4{
+    text-align: justify;
+  }
+  .about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  .about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+  }
+  /* about */
+  @media (max-width: 768px) {
+    .about {
+      height: auto;
+      min-height: auto;
+      background-attachment: scroll;
+    }
+  
+    .about.title {
+      font-size: 40px;
+    }
+  
+    .about .about-content .left {
+      width: 100%;
+    }
+  
+    .about .about-content .left img {
+      height: 250px;
+      width: 250px;
+    }
+  
+    .about .about-content .right {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .about .about-content .right .text {
+      font-size: 26px;
+    }
+  
+    .about .about-content .right a {
+      font-size: 18px;
+      padding: 8px 20px;
+      margin-top: 15px;
+    }
+  }
+  
+  /* Media query for screens with a maximum width of 576px */
+  @media (max-width: 576px) {
+    .about.title {
+      font-size: 30px;
+    }
+  
+    .about .about-content .left img {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .about .about-content .right .text {
+      font-size: 22px;
+    }
+  
+    .about .about-content .right a {
+      font-size: 16px;
+      padding: 6px 15px;
+      margin-top: 10px;
+    }
+  }

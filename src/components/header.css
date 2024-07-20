@@ -1,0 +1,173 @@
+/* navbar styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    background-color: #CE2029;
+    
+    
+  }
+  
+  .navbar img{
+    width:60px;
+    height:60px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .navbar.open {
+    padding: 15px 0;
+  }
+  
+  .navbar .menu-btn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .navbar .menu-btn i {
+    margin-right: 5px;
+  }
+  
+  
+  .navbar .menu-btn:hover {
+    color: #233142;
+  }
+  
+  .navbar .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right:20px;
+   
+  }
+  
+  .navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+   
+  }
+  
+  .navbar .menu li a:hover {
+    color: #233142;
+  }
+  
+  .navbar.open .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .navbar.open .menu li a {
+    margin: 15px 0;
+  }
+  
+  /* menu btn styling */
+  .menu-btn{
+      color: #fff;
+      font-size: 23px;
+      cursor: pointer;
+      display: none;
+  }
+  /* nav bar */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 0;
+    }
+    
+    .navbar .max-width {
+      flex-direction: column;
+    }
+    
+    .navbar .menu {
+      display: none;
+    }
+    
+    .menu-btn {
+      display: block;
+    }
+    
+    .navbar.sticky .menu-btn {
+      color: #fff;
+    }
+    
+    .navbar.sticky .menu-btn:hover {
+      color: #233142;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 0;
+    }
+    
+    .navbar .max-width {
+      flex-direction: column;
+    }
+    
+    .navbar .menu {
+      display: none;
+    }
+    
+    .menu-btn {
+      display: block;
+    }
+    
+    .navbar.sticky .menu-btn {
+      color: #fff;
+    }
+    
+    .navbar.sticky .menu-btn:hover {
+      color: #233142;
+    }
+  }
+@media (max-width: 768px) {
+    .navbar {
+      padding: 15px 0;
+    }
+  
+    .navbar .menu-btn {
+      display: block;
+    }
+  
+    .navbar .menu {
+      display: none;
+    }
+  
+    .navbar.open .menu-btn {
+      color: #fff;
+    }
+  
+    .navbar.open .menu-btn:hover {
+      color: #233142;
+    }
+  }
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 10px 0;
+      margin-bottom:20px;
+    }
+  
+    .navbar .menu li a {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  
+    .navbar .menu-btn {
+      font-size: 20px;
+    }
+  }

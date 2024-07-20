@@ -1,11 +1,18 @@
-
+import "./skills.css"
 const Skills = ()=>{
     return(
     <>
     <div className="skills">
      <div className="skills-container">
-         <h2>MY Skills</h2>
+         <h2>MY Skills</h2> 
       <div className="skills-list">
+      <div className="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="java"/>
+          <h3>JAVA</h3>
+          <div className="skill-progress">
+            <div className="skill-progress-bar java"></div>
+          </div>
+        </div>
         <div className="skill">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="c" />
           <h3>C</h3>
@@ -27,13 +34,7 @@ const Skills = ()=>{
             <div className="skill-progress-bar javascript"></div>
           </div>
         </div>
-        <div className="skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="java"/>
-          <h3>JAVA</h3>
-          <div className="skill-progress">
-            <div className="skill-progress-bar java"></div>
-          </div>
-        </div>
+        
         <div className="skill">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" />
           <h3>REACT JS</h3>
@@ -42,17 +43,24 @@ const Skills = ()=>{
           </div>
         </div>
         <div className="skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="node" />
-          <h3>NODE JS</h3>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" alt="springboot"/>
+          <h3>Spring Boot</h3>
           <div className="skill-progress">
-            <div className="skill-progress-bar node"></div>
+            <div className="skill-progress-bar springboot"></div>
           </div>
         </div>
         <div className="skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express"/>
-          <h3>EXPRESS JS</h3>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" alt="docker"/>
+          <h3>Docker</h3>
           <div className="skill-progress">
-            <div className="skill-progress-bar express"></div>
+            <div className="skill-progress-bar docker"></div>
+          </div>
+        </div>
+        <div className="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="jenkins"/>
+          <h3>Jenkins</h3>
+          <div className="skill-progress">
+            <div className="skill-progress-bar jenkins"></div>
           </div>
         </div>
         <div className="skill">

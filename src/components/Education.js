@@ -1,27 +1,28 @@
-
+import "./education.css"
 const Education = () => {
     const education = [
+      {
+          
+        title: "Bachelor of Technology in Computer Science and Engineering",
+        institution: "Institution: Sri Venkatesawara Engineering College",
+        year: "Year: 2020-2024",
+        CGPA:"CGPA: 8.4",
+      },
+        
         {
-            
-            title: "Secondary Education",
-            institution:"institution: Red Cherries",
-            year: "year: 2018",
-            CGPA:"CGPA: 9.2",
-        },
-        {
-            
             title: "Higher Secondary Education",
             institution:"Institution: SDHR Junior College",
             year: "Year :2020",
             CGPA:"CGPA:8.4",
           },
-        {
-          
-          title: "Bachelor of Science in Computer Science",
-          institution: "Institution: Sri Venkatesawara Engineering College",
-          year: "Year: 2024",
-          CGPA:"CGPA: 81.7",
+          {
+            
+            title: "Secondary Education",
+            institution:"institution: Red Cherries School",
+            year: "year: 2018",
+            CGPA:"CGPA: 9.2",
         },
+        
         
       ];
   

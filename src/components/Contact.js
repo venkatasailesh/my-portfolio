@@ -1,5 +1,7 @@
+import "./contact.css";
 
 const Contact = () =>{
+
     return(
     <>
     
@@ -29,14 +31,14 @@ const Contact = () =>{
                             <i className="fas fa-envelope"></i>
                             <div className="info">
                                 <div className="head">Email</div>
-                                <div className="sub-title">saileshvissamraju@gmail.com</div>
+                                <div className="sub-title">vvenkatasailesh@gmail.com</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="column right">
                     <div className="text">Message me</div>
-                    <form action="#">
+                    <form >
                         <div className="fields">
                             <div className="field name">
                                 <input type="text" placeholder="Name" required/>
@@ -46,13 +48,15 @@ const Contact = () =>{
                             </div>
                         </div>
                         <div className="field">
+                        
                             <input type="text" placeholder="Subject" required/>
                         </div>
                         <div className="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div className="button-area">
-                            <button type="submit">Send message</button>
+                            <input type="submit" value="Send Message" />
+                            
                         </div>
                     </form>
                 </div>

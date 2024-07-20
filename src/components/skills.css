@@ -1,0 +1,159 @@
+* skills section styling */
+.skills{
+    background: url("../images/skills.jpg") no-repeat center ;
+    height:100%;
+    background-size:cover;
+    
+}
+.skills-container {
+    padding: 20px;
+    }
+  
+  .skills-container h2{
+    margin-top: 130px;
+    color:#ffffff;
+    text-align:center;
+    }
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:50px;
+    
+  }
+  .skill {
+    width: 250px;
+    margin-bottom: 50px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .skill img{
+    width:100px;
+    height:100px;
+
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+  }
+  .skill-progress {
+    background-color: #e4e4e4;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .skill-progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    animation: skill-progress-animation 2s ease-out;
+  }
+  
+  @keyframes skill-progress-animation {
+    0% {
+      width: 0;
+    }
+  }
+  
+  .skill-progress-bar.html {
+    width: 90%;
+    background-color: #f16529;
+  }
+  
+  .skill-progress-bar.css {
+    width: 70%;
+    background-color: #2965f1;
+  }
+  
+  .skill-progress-bar.javascript {
+    width: 70%;
+    background-color: #f7df1e;
+  }
+  .skill-progress-bar.java {
+    width: 80%;
+    background-color: #1eaff7;
+  }
+  .skill-progress-bar.springboot {
+    width: 70%;
+    background-color: #f76a1e;
+  }
+  .skill-progress-bar.c {
+    width: 80%;
+    background-color: #f71e71;
+  }
+  .skill-progress-bar.python {
+    width: 70%;
+    background-color: #f7df1e;
+  }
+
+  .skill-progress-bar.docker {
+    width: 60%;
+    background-color: #991ef7;
+  }
+  .skill-progress-bar.jenkins {
+    width: 60%;
+    background-color: #25f71e;
+  }
+  .skill-progress-bar.sql {
+    width: 70%;
+    background-color: #1e5bf7;
+  }
+  .skill-progress-bar.react {
+    width: 70%;
+    background-color: #661ef7;
+  }
+  /* skills */
+  @media (max-width: 768px) {
+    .skills-container {
+      padding: 10px;
+    }
+  
+    .skills-container h2 {
+      margin-top: 150px;
+      font-size: 24px;
+    }
+  
+    .skills-list {
+      margin-top: 30px;
+    }
+  
+    .skill {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .skill img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .skill-progress-bar {
+      animation-duration: 1.5s;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .skills-container h2 {
+      margin-top: 120px;
+      font-size: 20px;
+    }
+  
+    .skills-list {
+      margin-top: 20px;
+    }
+  
+    .skill {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+  
+    .skill img {
+      width: 60px;
+      height: 60px;
+    }
+  }

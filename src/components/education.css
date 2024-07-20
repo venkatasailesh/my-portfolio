@@ -1,0 +1,125 @@
+/* education section styling */
+.teams {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    }
+  
+  .max-width {
+  padding: 0 20px;
+    max-width: 1200px;
+  }
+  
+  .title {
+    margin-top:100px;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    }
+  
+  .education {
+    display: flex;
+    justify-content: center;
+    background: url("../images/univ.webp") no-repeat center;
+   }
+  .education ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .education li {
+    margin-top:20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .education p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+
+/* education */
+@media (max-width: 992px) {
+  .max-width {
+    padding: 0 15px;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .education li {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .education h2 {
+    font-size: 22px;
+  }
+  
+  .education p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .teams {
+    padding: 30px 0;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .education ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .education li {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .education h2 {
+    font-size: 20px;
+  }
+  
+  .education p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .teams {
+    padding: 20px 0;
+  }
+  
+  .max-width {
+    padding: 0 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .education li {
+    width: 100%;
+    margin-right: 0;
+  }
+}
